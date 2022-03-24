@@ -97,11 +97,11 @@
     } while ( đieukien )
 */
 
-// var demDW = 0;
-// do {
-//   console.log("dem den " + demDW);
-//   demDW++;
-// } while (demDW < 5);
+var demDW = 0;
+do {
+  console.log("dem den " + demDW);
+  demDW++;
+} while (demDW < 0);
 
 // Câu hỏi: vậy while và do...while khác nhau thế nào?
 
@@ -123,17 +123,15 @@
     }
 */
 
-// for (var x = 0; x < 10; x++) {
-//   console.log(x);
-// }
+for (var x = 0; x < 10; x++) {
+  console.log(x);
+}
 
 var convat = new Array("meo", "ho", "voi");
-// for (var i = 0; i < convat.length; i++) {
-//   console.log(convat[i]);
-// }
+for (var i = 0; i < convat.length; i++) {
+  if (i % 2 == 0) console.log(convat[i]);
+}
 
-convat.forEach(function (element) {
-  console.log(index);
-});
+convat.forEach((value, index) => alert(index));
 
 // ------------------------------------------------------------------------------------------------

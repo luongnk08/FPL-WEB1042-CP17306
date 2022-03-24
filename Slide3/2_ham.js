@@ -23,13 +23,13 @@
 // hàm không có giá trị trả về:
 
 // Định nghĩa hàm
-// function myFunction(loichao1, loichao2) {
-//   alert("Bien thu nhat la: " + loichao1);
-//   alert("Bien thu hai la: " + loichao2);
-// }
+function myFunction(loichao1, loichao2) {
+  alert("Bien thu nhat la: " + loichao1);
+  alert("Bien thu hai la: " + loichao2);
+}
 
 // // gọi hàm
-// myFunction("so1");
+// myFunction("so1", "so2");
 
 /*
     Chú ý: 
@@ -41,9 +41,9 @@
 // hàm có giá trị trả về:
 
 // định nghĩa hàm
-// function nhanHaiSo(x, y) {
-//   return x * y;
-// }
+function nhanHaiSo(x, y) {
+  return x * y;
+}
 
 // // gọi hàm
 // var tich = nhanHaiSo(3, 4);
